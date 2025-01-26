@@ -1,14 +1,5 @@
 <settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
 
-    <setting propertyKey="@Properties.BackgroundColor" title="@Strings.BackgroundColorTitle">
-        <settingConfig type="list">
-            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
-            <listEntry value="0x555555">@Strings.ColorDarkGray</listEntry>
-            <listEntry value="0xAAAAAA">@Strings.ColorLightGray</listEntry>
-            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
-        </settingConfig>
-    </setting>
-
     <setting propertyKey="@Properties.DateColor" title="@Strings.DateColorTitle">
         <settingConfig type="list">
             <listEntry value="0">@Strings.ColorWhite</listEntry>
@@ -72,5 +63,90 @@
             <listEntry value="10">@Strings.ColorPink</listEntry>
         </settingConfig>
     </setting>
+
+    <setting propertyKey="@Properties.Widget_1" title="@Strings.NorthWidgetTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.NoWidget</listEntry>
+            <listEntry value="1">@Strings.WidgetDistance</listEntry>
+            <listEntry value="2">@Strings.WidgetClimbed</listEntry>
+            <listEntry value="3">@Strings.WidgetHeartRate</listEntry>
+            <listEntry value="4">@Strings.WidgetCalories</listEntry>
+            <listEntry value="5">@Strings.WidgetSteps</listEntry>
+            <listEntry value="6">@Strings.WidgetRespirationRate</listEntry>
+            <listEntry value="7">@Strings.WidgetStressScore</listEntry>
+            <listEntry value="8">@Strings.WidgetBaterry</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Widget_2" title="@Strings.NorthEastWidgetTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.NoWidget</listEntry>
+            <listEntry value="1">@Strings.WidgetDistance</listEntry>
+            <listEntry value="2">@Strings.WidgetClimbed</listEntry>
+            <listEntry value="3">@Strings.WidgetHeartRate</listEntry>
+            <listEntry value="4">@Strings.WidgetCalories</listEntry>
+            <listEntry value="5">@Strings.WidgetSteps</listEntry>
+            <listEntry value="6">@Strings.WidgetRespirationRate</listEntry>
+            <listEntry value="7">@Strings.WidgetStressScore</listEntry>
+            <listEntry value="8">@Strings.WidgetBaterry</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Widget_3" title="@Strings.NorthWestWidgetTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.NoWidget</listEntry>
+            <listEntry value="1">@Strings.WidgetDistance</listEntry>
+            <listEntry value="2">@Strings.WidgetClimbed</listEntry>
+            <listEntry value="3">@Strings.WidgetHeartRate</listEntry>
+            <listEntry value="4">@Strings.WidgetCalories</listEntry>
+            <listEntry value="5">@Strings.WidgetSteps</listEntry>
+            <listEntry value="6">@Strings.WidgetRespirationRate</listEntry>
+            <listEntry value="7">@Strings.WidgetStressScore</listEntry>
+            <listEntry value="8">@Strings.WidgetBaterry</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Widget_4" title="@Strings.SudWidgetTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.NoWidget</listEntry>
+            <listEntry value="1">@Strings.WidgetDistance</listEntry>
+            <listEntry value="2">@Strings.WidgetClimbed</listEntry>
+            <listEntry value="3">@Strings.WidgetHeartRate</listEntry>
+            <listEntry value="4">@Strings.WidgetCalories</listEntry>
+            <listEntry value="5">@Strings.WidgetSteps</listEntry>
+            <listEntry value="6">@Strings.WidgetRespirationRate</listEntry>
+            <listEntry value="7">@Strings.WidgetStressScore</listEntry>
+            <listEntry value="8">@Strings.WidgetBaterry</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Widget_5" title="@Strings.SudEastWidgetTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.NoWidget</listEntry>
+            <listEntry value="1">@Strings.WidgetDistance</listEntry>
+            <listEntry value="2">@Strings.WidgetClimbed</listEntry>
+            <listEntry value="3">@Strings.WidgetHeartRate</listEntry>
+            <listEntry value="4">@Strings.WidgetCalories</listEntry>
+            <listEntry value="5">@Strings.WidgetSteps</listEntry>
+            <listEntry value="6">@Strings.WidgetRespirationRate</listEntry>
+            <listEntry value="7">@Strings.WidgetStressScore</listEntry>
+            <listEntry value="8">@Strings.WidgetBaterry</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Widget_6" title="@Strings.SudWestWidgetTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.NoWidget</listEntry>
+            <listEntry value="1">@Strings.WidgetDistance</listEntry>
+            <listEntry value="2">@Strings.WidgetClimbed</listEntry>
+            <listEntry value="3">@Strings.WidgetHeartRate</listEntry>
+            <listEntry value="4">@Strings.WidgetCalories</listEntry>
+            <listEntry value="5">@Strings.WidgetSteps</listEntry>
+            <listEntry value="6">@Strings.WidgetRespirationRate</listEntry>
+            <listEntry value="7">@Strings.WidgetStressScore</listEntry>
+            <listEntry value="8">@Strings.WidgetBaterry</listEntry>
+        </settingConfig>
+    </setting>
+
 
 </settings>
